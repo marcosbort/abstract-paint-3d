@@ -87,11 +87,11 @@ body {
 }
 .canvas:hover .canvas__layer-04 {
     transform-style: preserve-3d; 
-    transform: translateZ(70px)
+    transform: translateZ(80px)
 }
 .canvas:hover .canvas__layer-05 {
     transform-style: preserve-3d; 
-    transform: translateZ(80px)
+    transform: translateZ(140px)
 }
 .canvas:hover .canvas__layer-06 {
     transform-style: preserve-3d; 
