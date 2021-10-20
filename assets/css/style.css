@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #131313;
+    background: #ffffff;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.canvas {
+    position: relative;
+    width: 750px;
+    height: 500px;
+    background: #232323;
+    transform-style: preserve-3d;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.canvas__layer {
+    position: absolute;
+    width: 100%;
+    transform-style: preserve-3d; 
+    transform: translateZ(0px);
+    transition: 0.7s;
+}
+
+.canvas__title-1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 38px;
+	top: 198px;
+	left: 315px;
+	z-index: 1;
+    transition: 0.7s;
+}
+.canvas__title-2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 76px;
+    letter-spacing: 4px;
+	top: 225px;
+	left: 298px;
+	z-index: 1;
+    transition: 0.7s;
+}
+.canvas__title-3 {
+	position: absolute;
+	color: #3c5c61;
+	text-transform: uppercase;
+	font-size: 76px;
+	top: 287px;
+	left: 343px;
+	z-index: 1;
+    opacity: 0;
+	transition: 0.7s;
+}
+
+/* Hover */
+.canvas:hover .canvas__layer-00 {
+    transform-style: preserve-3d; 
+    transform: translateZ(0px)
+}
+.canvas:hover .canvas__layer-01 {
+    transform-style: preserve-3d; 
+    transform: translateZ(20px)
+}
+.canvas:hover .canvas__layer-02 {
+    transform-style: preserve-3d; 
+    transform: translateZ(40px)
+}
+.canvas:hover .canvas__layer-03 {
+    transform-style: preserve-3d; 
+    transform: translateZ(60px)
+}
+.canvas:hover .canvas__layer-04 {
+    transform-style: preserve-3d; 
+    transform: translateZ(70px)
+}
+.canvas:hover .canvas__layer-05 {
+    transform-style: preserve-3d; 
+    transform: translateZ(80px)
+}
+.canvas:hover .canvas__layer-06 {
+    transform-style: preserve-3d; 
+    transform: translateZ(90px)
+}
+.canvas:hover .canvas__layer-07 {
+    transform-style: preserve-3d; 
+    transform: translateZ(100px)
+}
+.canvas:hover .canvas__layer-08 {
+    transform-style: preserve-3d; 
+    transform: translateZ(120px)
+}
+.canvas:hover .canvas__layer-09 {
+    transform-style: preserve-3d; 
+    transform: translateZ(140px)
+}
+.canvas:hover .canvas__layer-10 {
+    transform-style: preserve-3d; 
+    transform: translateZ(160px)
+}
+.canvas:hover .canvas__layer-11 {
+    transform-style: preserve-3d; 
+    transform: translateZ(180px)
+}
+.canvas:hover .canvas__layer-12 {
+    transform-style: preserve-3d; 
+    transform: translateZ(200px)
+}
+.canvas:hover .canvas__layer-13 {
+    transform-style: preserve-3d; 
+    transform: translateZ(220px)
+}
+.canvas:hover .canvas__layer-14 {
+    transform-style: preserve-3d; 
+    transform: translateZ(260px)
+}
+.canvas:hover .canvas__title-1 {
+    transform-style: preserve-3d; 
+    transform: translateZ(290px)
+}
+.canvas:hover .canvas__title-2 {
+    transform-style: preserve-3d; 
+    transform: translateZ(340px)
+}
+.canvas:hover .canvas__title-3 {
+    transform-style: preserve-3d; 
+    transform: translateZ(310px);
+    opacity: 1;
+}
+
+.footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    margin-top: -160px;
+}
